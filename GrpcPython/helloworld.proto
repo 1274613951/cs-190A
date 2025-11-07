@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcGreeterClient";
+
+package greet;
+
+service Greeter {
+  rpc RequestInstruction (InputStatus) returns (OutputAI);
+}
+
+message InputStatus {
+  float x = 1;
+  float z = 2;
+  float speed = 3;
+  float direction = 4;
+  float distance = 5;
+  bool done = 6;
+  float distanceLeft = 7;
+}
+
+message OutputAI {
+  repeated float action = 1;
+  float reward = 2;
+  bool done = 3;
+}
+
+

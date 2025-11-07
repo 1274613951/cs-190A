@@ -1,0 +1,2 @@
+protoc --csharp_out=. --grpc_out=. --plugin=protoc-gen-grpc=grpc_csharp_plugin.exe helloworld.proto
+protoc --csharp_out=. --grpc_out=. --plugin=protoc-gen-grpc=/Users/ruitong/Doc/CS/CS190A/CS190A/Car/Packages/Grpc.Tools.2.72.0/tools/macosx_x64/grpc_csharp_plugin helloworld.proto
