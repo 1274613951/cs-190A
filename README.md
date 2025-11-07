@@ -5,3 +5,5 @@ Before testing the result and running greeter_server.py, make sure to uncomment 
 6/6/2025
 Group members: 
 Chao Bian, Harvey Zhou, Michael Yang, Rui Tong, Yiheng Feng
+
+Here is the final video link of the project:https://drive.google.com/file/d/1P95qzx5CGgzS4hlDAUNrLjUhCzn091YV/view?usp=drive_link
